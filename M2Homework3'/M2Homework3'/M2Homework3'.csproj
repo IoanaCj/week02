@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3120F7B-FE0D-473A-B337-D5FB5DCD5F8A}</ProjectGuid>
+    <ProjectGuid>{67B6F8E8-7E99-4F95-A6F0-1DF9B9FDB004}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>M2Homework3</RootNamespace>
-    <AssemblyName>M2Homework3</AssemblyName>
+    <RootNamespace>M2Homework3_</RootNamespace>
+    <AssemblyName>M2Homework3%27</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
