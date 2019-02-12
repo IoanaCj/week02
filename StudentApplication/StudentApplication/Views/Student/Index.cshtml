@@ -1,0 +1,25 @@
+﻿@model List<StudentApplication.Models.Student>
+
+<div>
+    This is a list of Students <br />
+   <table style="width:100%">
+        <thead>
+            <tr>
+                <th>StudentId</th>
+                <th>StudentName</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.StudentId</td>
+                    <td>@student.StudentName</td>
+                    <td>@student.Age</td>
+                    <td><a href="/home/details/@student.StudentId">Click here</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
