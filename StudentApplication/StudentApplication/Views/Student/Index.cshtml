@@ -2,10 +2,11 @@
 
 <div>
     This is a list of Students <br />
+
    <table style="width:100%">
         <thead>
             <tr>
-                <th>StudentId</th>
+                <th>Id</th>
                 <th>StudentName</th>
                 <th>Age</th>
             </tr>
@@ -14,10 +15,11 @@
             @foreach (var student in Model)
             {
                 <tr>
-                    <td>@student.StudentId</td>
+                    <td>@student.Id</td>
                     <td>@student.StudentName</td>
                     <td>@student.Age</td>
-                    <td><a href="/home/details/@student.StudentId">Click here</a></td>
+                    <td><a href="/student/details/@student.Id">Click here</a></td>
+                    <td><a href="/student/edit/@student.Id">Edit</a></td>
                 </tr>
             }
         </tbody>
